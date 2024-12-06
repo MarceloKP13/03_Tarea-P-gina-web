@@ -1,0 +1,43 @@
+.video {
+    text-align: center;
+    margin: 20px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.video iframe{
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+.tabla {
+    margin-top: 20px;
+    text-align: center;
+    padding: 3%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #bdbcbc;
+}
+
+@media(max-width: 768px) {
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+    .video iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
